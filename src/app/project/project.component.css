@@ -1,0 +1,12 @@
+.card{
+  border: none;
+  outline: none;
+}
+.card p{
+  color: gray;
+}
+.circle{
+  width: 70px;
+  height: 70px;
+  background-color: white;
+}
