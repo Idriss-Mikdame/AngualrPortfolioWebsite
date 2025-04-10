@@ -45,6 +45,13 @@ h1{
   height: 25px;
   width: 0;
 }
+.pro-vlaue5{
+  animation: load5 3s normal forwards;
+  border-radius: 50px;
+  background-color: black;
+  height: 25px;
+  width: 0;
+}
 .progress p{
   color: white;
   padding: 4px;
@@ -63,7 +70,7 @@ h1{
     width: 0;
   }
   100%{
-    width: 70%;
+    width: 50%;
   }
 }
 @keyframes load3 {
@@ -80,6 +87,14 @@ h1{
   }
   100%{
     width: 40%;
+  }
+}
+@keyframes load5 {
+  0%{
+    width: 0;
+  }
+  100%{
+    width: 70%;
   }
 }
 .btn1{

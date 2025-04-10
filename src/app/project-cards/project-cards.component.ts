@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import {Component, Input, input, OnInit} from '@angular/core';
+import {Project} from '../_modules/Project';
 
 @Component({
   selector: 'app-project-cards',
@@ -8,5 +9,12 @@ import { Component } from '@angular/core';
   styleUrl: './project-cards.component.css'
 })
 export class ProjectCardsComponent {
+  //@Input() nomProjets : String = "";
+  //@Input() description : String = "";
+  //@Input() ressource : String = "";
+  @Input() project = {} as Project;
 
+
+  constructor() {
+  }
 }
