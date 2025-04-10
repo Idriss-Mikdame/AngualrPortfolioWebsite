@@ -1,5 +1,5 @@
 import {Component, Input, input, OnInit} from '@angular/core';
-import {Project} from '../_modules/Project';
+
 
 @Component({
   selector: 'app-project-cards',
@@ -12,9 +12,18 @@ export class ProjectCardsComponent {
   //@Input() nomProjets : String = "";
   //@Input() description : String = "";
   //@Input() ressource : String = "";
-  @Input() project = {} as Project;
+  //@Input() project = {} as Project;
 
+  projects  = [
+    {
+      nomProjet: 'WebSite-Coffe',
+      description:
+      'WebSite-Coffee est un site web moderne et accueillant dédié aux amateurs de café.',
+      link: 'https://github.com/Idriss-Mikdame/Coffee-Website.git',
+      resource: [ 'html', 'css', 'js'],
 
+    },
+]
   constructor() {
   }
 }

@@ -14,11 +14,7 @@ import {Project} from '../_modules/Project';
   styleUrl: './project.component.css'
 })
 export class ProjectComponent {
-project: Project = {
-    name : 'Coffe',
-    description : 'idriss mikdame',
-     ressource : 'https://www.youtube.com/',
-}
+
 
 constructor(private titleProject : Title) {
    this.titleProject.setTitle('idriss - Project')
