@@ -65,6 +65,7 @@ export class ProjectComponent {
       tag: [ 'HTML-CSS-JAVA'],
 
     },
+
   ]
 
 constructor(private titleProject : Title) {
