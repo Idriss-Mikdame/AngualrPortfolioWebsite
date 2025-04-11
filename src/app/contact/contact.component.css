@@ -1,0 +1,28 @@
+#container{
+
+  border-radius: 15px;
+}
+#section{
+ background:
+linear-gradient(#09203F,#537895);
+}
+
+.map{
+  filter: hue-rotate(2000deg);
+  height: 30em;
+  width: 100%;
+}
+@media screen and (max-width: 768px) {
+  #section , #section::before{
+    min-height: 750px;
+  }
+  .map{
+    height: 15em;
+  }
+}
+
+@media screen and (max-height:515px){
+  #section , #section::before{
+    min-height: 750px;
+  }
+}

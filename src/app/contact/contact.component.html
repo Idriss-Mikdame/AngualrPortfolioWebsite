@@ -1,13 +1,33 @@
-<div class="vh-100 d-flex justify-content-center align-items-center p-4"  id="section">
-  <div class="row contact-form bg-light position-relative" id="container">
-        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-    <div>
-      <iframe src="https://www.google.com/maps/place/Bureau+%C3%A0+louer/@32.3328825,-6.3646714,45m/data=!3m1!1e3!4m6!3m5!1s0xda3870063870ca7:0x429e9fd8983b5f9d!8m2!3d32.3329749!4d-6.3646401!16s%2Fg%2F11ltq8k3nj?entry=ttu&g_ep=EgoyMDI1MDQwOC4wIKXMDSoJLDEwMjExNDUzSAFQAw%3D%3D"
-      frameborder="0"
-      allowfullscreen=""
-      aria-hidden="false"
-      tabindex="0"
-      class="map"></iframe>
+<div class="vh-100 d-flex justify-content-center align-items-center " id="section">
+  <div class="row contact-form bg-light position-relative w-75" id="container">
+
+    <div class="col-md-6 p-0">
+      <iframe src="https://www.google.com/maps/@37.6,-95.665,5513053m/data=!3m1!1e3?entry=ttu&g_ep=EgoyMDI1MDQwOC4wIKXMDSoJLDEwMjExNDUzSAFQAw%3D%3D"
+              frameborder="0"
+              allowfullscreen=""
+              aria-hidden="false"
+              tabindex="0"
+              class="map"></iframe>
+    </div>
+    <div class="col-md-6 p-5 d-flex justify-content-center align-items-center">
+      <form action="" class="w-100">
+        <legend class="mb-4 text-center text-uppercase fw-bolder">Contact</legend>
+        <div class="mb-3">
+          <label class="form-label">Nom/Prenom</label>
+          <input type="text" placeholder="Nom Prénom" class="form-control">
+        </div>
+        <div class="mb-3">
+          <label  class="form-label">Email</label>
+          <input type="email" class="form-control" placeholder="example@gmail.com">
+        </div>
+        <div class="form-floating">
+          <textarea class="form-control" placeholder="message" id="textarea" style="height: 7em; resize: none;"></textarea>
+          <label>Message...</label>
+        </div>
+        <div class="d-grid gap-2 pt-3">
+          <button class="btn btn-dark">SEND</button>
+        </div>
+      </form>
     </div>
   </div>
 </div>
