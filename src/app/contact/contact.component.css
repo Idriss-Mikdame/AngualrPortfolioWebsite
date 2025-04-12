@@ -6,7 +6,9 @@
   background: radial-gradient(circle,rgba(212, 145, 138, 1) 0%, rgba(148, 187, 233, 1) 100%);
 
 }
-
+legend{
+  text-decoration: underline;
+}
 .map{
   filter: hue-rotate(2000deg);
   height: 30em;

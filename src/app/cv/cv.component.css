@@ -1,3 +1,6 @@
 .templates{
     background: radial-gradient(circle,rgba(212, 145, 138, 1) 0%, rgba(148, 187, 233, 1) 100%);
 }
+h2{
+    text-decoration: underline;
+}
