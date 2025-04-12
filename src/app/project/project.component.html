@@ -3,14 +3,14 @@
 </head>
 <div class="main">
 <div class="container">
-  <h1 class="mb-4 text-uppercase text-center fw-bolder">Project</h1>
+  <h1 class="mb-4 text-uppercase text-center fw-bolder">Projects</h1>
   <div class="row justify-content-center">
     <div class="col-md-4 mb-4" *ngFor="let P of projects">
       <div class="card shadow text-center h-100">
-        <img class="card-img-top" src="{{P.img}}" alt="Card image cap">
+        <img class="card-img-top " src="{{P.img}}" alt="Card image cap">
         <div class="card-body d-flex flex-column justify-content-between">
           <h5 class="card-title">{{P.nomProjet}}</h5>
-          <p class="mb-4">{{P.description}}</p>
+          <p class="mb-4 ">{{P.description}}</p>
           <div class="d-flex justify-content-center mt-auto">
             <a [href]="P.link" target="_blank" class="btn btn-outline-dark">
               <i class="bi bi-github fs-4"></i>
@@ -19,7 +19,7 @@
         </div>
         <div class="card-footer">
           <div class="d-flex flex-wrap justify-content-center">
-            <span class="tag2 me-2 mb-1">{{P.tag}}</span>
+            <span class="tag2 me-2 mb-1 fw-bold">{{P.tag}}</span>
           </div>
         </div>
       </div>
