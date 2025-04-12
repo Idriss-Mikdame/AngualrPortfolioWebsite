@@ -3,8 +3,8 @@
   border-radius: 15px;
 }
 #section{
- background:
-linear-gradient(#09203F,#537895);
+  background: radial-gradient(circle,rgba(212, 145, 138, 1) 0%, rgba(148, 187, 233, 1) 100%);
+
 }
 
 .map{

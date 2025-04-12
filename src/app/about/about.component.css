@@ -2,6 +2,11 @@
   box-shadow: 10px 10px 73px 0px rgba(189,101,112,0.7);
   -webkit-box-shadow: 10px 10px 73px 0px rgba(189,101,112,0.7);
   -moz-box-shadow: 10px 10px 73px 0px rgba(189,101,112,0.7);
+  border-radius: 45%;
+}
+.about{
+  background: radial-gradient(circle,rgba(212, 145, 138, 1) 0%, rgba(148, 187, 233, 1) 100%);
+
 }
 h1{
   font-size: 3rem;

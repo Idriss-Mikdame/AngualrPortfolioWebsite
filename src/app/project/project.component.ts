@@ -17,6 +17,7 @@ import {NgForOf} from '@angular/common';
 export class ProjectComponent {
   projects  = [
     {
+      img:'./asset/coffee.jpeg',
       nomProjet: 'WebSite-Coffe',
       description:
         'WebSite-Coffee est un site web moderne et accueillant dédié aux amateurs de café.',
@@ -25,6 +26,7 @@ export class ProjectComponent {
 
     },
     {
+      img:'./asset/construction.jpeg',
       nomProjet: 'ConstructionXpert',
       description:
         '​ConstructionXpert is a web-based application designed to assist construction teams in efficiently managing their projects. .',
@@ -33,6 +35,7 @@ export class ProjectComponent {
 
     },
     {
+      img:'./asset/sport.jpeg',
       nomProjet: 'SportFlow',
       description:
         '"SportFlow" refers to several distinct platforms and initiatives within the sports sector. .',
@@ -41,6 +44,7 @@ export class ProjectComponent {
 
     },
     {
+      img:'./asset/school.jpeg',
       nomProjet: 'EduManager ',
       description:
         'EduManager is a term associated with various educational management systems and tools designed to streamline administrative and academic processes. ',
@@ -50,6 +54,7 @@ export class ProjectComponent {
     },
 
     {
+      img:'./asset/films.jpg',
       nomProjet: 'GetionFilms',
       description:
         'Un gestionnaire de films est un logiciel ou une application conçue pour aider les cinéphiles à organiser.',
@@ -58,6 +63,7 @@ export class ProjectComponent {
 
     },
     {
+      img:'./asset/utilisateur.jpeg',
       nomProjet: 'GetionUtilisateur ',
       description:
         'Le module GestionUtilisateur permet de gérer l’ensemble des fonctionnalités liées aux utilisateurs de l\'application..',
